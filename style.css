@@ -34,6 +34,13 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.circle:hover{
+    background-color: #e1578c;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .song-img{
     width: 200px;
@@ -87,9 +94,20 @@ progress::-webkit-slider-thumb{
     color: #e1578c;
     box-shadow: 0 5px 10px rgba(55, 52, 52, 0.5);
     cursor: pointer;
+    transition: .5s;
 }
 .controls div:nth-child(2){
     transform: scale(1.5);
     background:#e1578c;
     color: #fff;
+    transition: .5s;
+}
+.controls div:hover{
+    background-color: #e1578c;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.controls div:nth-child(2):hover{
+    background-color: #fff;
+    color: #e1578c;
 }
